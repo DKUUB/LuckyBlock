@@ -1,6 +1,6 @@
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/DKUUB/Orionui/refs/heads/main/README.md')))()
+local OrionLib = loadstring(game:HttpGet(('https://pastebin.com/raw/WRUyYTdY')))()
 
-local Window = OrionLib:MakeWindow({Name = "DANGO HUB - ❓ LUCKY BLOCKS Battlegrounds", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+local Window = OrionLib:MakeWindow({Name = "DANGO HUB - ❓ LUCKY BLOCKS Battlegrounds", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest", IntroText = "DANGO HUB - ❓ LUCKY BLOCKS Battlegrounds"})
 
 local Tab = Window:MakeTab({
 	Name = "Lucky blocks",
